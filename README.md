@@ -1,3 +1,7 @@
+# functional todo
+
+* check noise with a 3v generated supply into PO
+
 # schematic todo
 
 * check 
@@ -12,12 +16,14 @@
 
 # pcb todo
 
-* mount holes fit 20mm grid
 * check gerbers against other designs for pinout
+* check space for molex header
+* mount holes fit 20mm grid - done
 
 # order
 
 * psu power plugs (volca)
+* molex 2 pin header and housing, check crimp supply
 * how to connect PO
 * standoffs
 
