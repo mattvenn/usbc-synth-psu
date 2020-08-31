@@ -1,3 +1,12 @@
+# USBC Synth PSU
+
+* uses STUSB4500 to negotiate 12 or 15v from a USBC power bank
+* uses 4 DC/DC switchers to supply 12, 9, 5 and 3v outputs for my various synths
+
+![board](board.png)
+
+[schematic](schematic.pdf)
+
 # functional todo
 
 * check noise with a 3v generated supply into PO
