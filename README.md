@@ -5,7 +5,7 @@
 
 ![board](board.png)
 
-[schematic](schematic.pdf)
+[PDF schematic](schematic.pdf)
 
 # functional todo
 
@@ -14,7 +14,7 @@
 
 # schematic todo
 
-* check max input dc/dc - 5v! need to find another
+* check max input dc/dc - 5v! need to find another - how about https://www.ti.com/product/TPS56339#product-details##pps
 * check 
 * mosfet and check pinout
 * double check pinout and wiring of usb chip
