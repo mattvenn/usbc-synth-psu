@@ -14,20 +14,22 @@
 
 # schematic todo
 
+* enable switchers only if PD is good?
 * check max input dc/dc - 5v! need to find another - how about https://www.ti.com/product/TPS56339#product-details##pps
-* check 
-* mosfet and check pinout
-* double check pinout and wiring of usb chip
 * calculate all R1 & R2 for dc/dc
 * calculate all LED R 
-* add more psu outputs
-* do we need 5v?
+* add more psu outputs (or can remove the 12v one?)
+* do we need 5v? (aukey can do 2x usb 5v as well as PD on usbC)
 * add part numbers
+
+* mosfet and check pinout - done
+* double check pinout and wiring of usb chip - done
 
 # pcb todo
 
 * check gerbers against other designs for pinout
 * check space for molex header
+
 * mount holes fit 20mm grid - done
 
 # order
