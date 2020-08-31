@@ -1,13 +1,14 @@
 # functional todo
 
 * check noise with a 3v generated supply into PO
+* looks like aukey charger only goes up to 12v, so add a jumper to short out one of the DC switchers
 
 # schematic todo
 
+* check max input dc/dc - 5v! need to find another
 * check 
 * mosfet and check pinout
 * double check pinout and wiring of usb chip
-* check max input dc/dc
 * calculate all R1 & R2 for dc/dc
 * calculate all LED R 
 * add more psu outputs

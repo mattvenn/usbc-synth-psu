@@ -2141,4 +2141,39 @@ F 3 "" H 15950 4050 50  0001 C CNN
 	1    15950 4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5F4D601C
+P 11750 1600
+F 0 "#PWR?" H 11750 1450 50  0001 C CNN
+F 1 "+15V" H 11765 1773 50  0000 C CNN
+F 2 "" H 11750 1600 50  0001 C CNN
+F 3 "" H 11750 1600 50  0001 C CNN
+	1    11750 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F4D65BC
+P 11750 1500
+F 0 "#PWR?" H 11750 1350 50  0001 C CNN
+F 1 "+12V" H 11765 1673 50  0000 C CNN
+F 2 "" H 11750 1500 50  0001 C CNN
+F 3 "" H 11750 1500 50  0001 C CNN
+	1    11750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F4D6DE7
+P 11550 1500
+F 0 "J?" H 11500 1750 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 11550 1850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11550 1500 50  0001 C CNN
+F 3 "~" H 11550 1500 50  0001 C CNN
+	1    11550 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 12000 1550 0    50   ~ 0
+jumper to allow bypass of DC/DC if negotiated supply is too low.
 $EndSCHEMATC
