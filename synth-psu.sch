@@ -657,10 +657,6 @@ F 3 "~" H 12150 3200 50  0001 C CNN
 	1    12150 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 12950 3400 0    50   ~ 0
-r1
-Text Notes 12950 3700 0    50   ~ 0
-r2
 $Comp
 L power:Earth #PWR0119
 U 1 1 5F528167
@@ -756,7 +752,7 @@ P 13250 3650
 AR Path="/5F51C0C5/5F53E3FF" Ref="R?"  Part="1" 
 AR Path="/5F53E3FF" Ref="R9"  Part="1" 
 F 0 "R9" V 13043 3650 50  0001 C CNN
-F 1 "120k" V 13250 3650 50  0000 C CNN
+F 1 "660r" V 13250 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13180 3650 50  0001 C CNN
 F 3 "~" H 13250 3650 50  0001 C CNN
 F 4 "RC0805FR-07120KL" H 13250 3650 50  0001 C CNN "manf#"
@@ -921,10 +917,6 @@ F 3 "~" H 12150 4500 50  0001 C CNN
 	1    12150 4500
 	1    0    0    -1  
 $EndComp
-Text Notes 12950 4700 0    50   ~ 0
-r1
-Text Notes 12950 5000 0    50   ~ 0
-r2
 $Comp
 L power:Earth #PWR07
 U 1 1 5F56C364
@@ -987,7 +979,7 @@ P 13250 4950
 AR Path="/5F51C0C5/5F56C3AD" Ref="R?"  Part="1" 
 AR Path="/5F56C3AD" Ref="R16"  Part="1" 
 F 0 "R16" V 13043 4950 50  0001 C CNN
-F 1 "120k" V 13250 4950 50  0000 C CNN
+F 1 "466r" V 13250 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13180 4950 50  0001 C CNN
 F 3 "~" H 13250 4950 50  0001 C CNN
 F 4 "RC0805FR-07120KL" H 13250 4950 50  0001 C CNN "manf#"
@@ -1111,10 +1103,6 @@ F 3 "~" H 12150 5850 50  0001 C CNN
 	1    12150 5850
 	1    0    0    -1  
 $EndComp
-Text Notes 12950 6050 0    50   ~ 0
-r1
-Text Notes 12950 6350 0    50   ~ 0
-r2
 $Comp
 L power:Earth #PWR08
 U 1 1 5F5751F2
@@ -1177,7 +1165,7 @@ P 13250 6300
 AR Path="/5F51C0C5/5F57523B" Ref="R?"  Part="1" 
 AR Path="/5F57523B" Ref="R17"  Part="1" 
 F 0 "R17" V 13043 6300 50  0001 C CNN
-F 1 "120k" V 13250 6300 50  0000 C CNN
+F 1 "200r" V 13250 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13180 6300 50  0001 C CNN
 F 3 "~" H 13250 6300 50  0001 C CNN
 F 4 "RC0805FR-07120KL" H 13250 6300 50  0001 C CNN "manf#"
@@ -1301,10 +1289,6 @@ F 3 "~" H 12150 7150 50  0001 C CNN
 	1    12150 7150
 	1    0    0    -1  
 $EndComp
-Text Notes 12950 7350 0    50   ~ 0
-r1
-Text Notes 12950 7650 0    50   ~ 0
-r2
 $Comp
 L power:Earth #PWR09
 U 1 1 5F589935
@@ -1367,7 +1351,7 @@ P 13250 7600
 AR Path="/5F51C0C5/5F58997E" Ref="R?"  Part="1" 
 AR Path="/5F58997E" Ref="R18"  Part="1" 
 F 0 "R18" V 13043 7600 50  0001 C CNN
-F 1 "120k" V 13250 7600 50  0000 C CNN
+F 1 "90r" V 13250 7600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13180 7600 50  0001 C CNN
 F 3 "~" H 13250 7600 50  0001 C CNN
 F 4 "RC0805FR-07120KL" H 13250 7600 50  0001 C CNN "manf#"
@@ -3638,4 +3622,8 @@ Text Label 11200 5850 0    39   ~ 0
 sw_5
 Text Label 11200 7150 0    39   ~ 0
 sw_3
+Text Notes 13950 1950 0    59   ~ 0
+bulk cap
+Text Notes 13150 8050 0    59   ~ 0
+all leds are 2v drop and run at 15mA
 $EndSCHEMATC
