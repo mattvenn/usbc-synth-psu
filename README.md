@@ -1,7 +1,9 @@
 # USBC Synth PSU
 
-* uses STUSB4500 to negotiate 12 or 15v from a USBC power bank
+* uses STUSB4500 to negotiate 12v or 15v from a USBC power bank
 * uses 4 [DC/DC switchers](https://www.ti.com/product/TPS56339) to supply 12, 9, 5 and 3v outputs for my various synths
+* resistors can be changed to set different output voltage
+* JP1 can be bridged and 12v DC/DC components not placed if power bank can supply 12v.
 
 ![board](board.png)
 
@@ -46,12 +48,12 @@ FFT of PO-12 with DC/DC 3.3v supply
 
 * psu power plugs (volca)
 * molex 2 pin header and housing, check crimp supply
-* how to connect PO
+* how to connect PO - solder on a header directly
 * standoffs
 
 # notes
 
 * proposed USBC charger: https://www.amazon.es/AUKEY-10000-mAh-Delivery-3-0-Cargador-Port%C3%A1til/dp/B07B4RQ47B/ref=sr_1_4?ascsubtag=UUacUdUnU67894YYwYg&dchild=1&keywords=AUKEY+USB+C+Power+Bank+10000mAh%2C+PD+Power+Bank+Slimline+with+18W+PD&linkCode=gs3&qid=1598631552&sr=8-4&tag=androcentr0f-21
-* datasheet https://www.st.com/en/interfaces-and-transceivers/stusb4500.html
-* sparkfun product https://www.sparkfun.com/products/15801
-* tindie product: https://github.com/oxplot/fabpide2
+* STUSB4500 datasheet https://www.st.com/en/interfaces-and-transceivers/stusb4500.html
+* sparkfun USB PD product https://www.sparkfun.com/products/15801
+* tindie USB PD product: https://github.com/oxplot/fabpide2
