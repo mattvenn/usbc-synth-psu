@@ -1,7 +1,7 @@
 # USBC Synth PSU
 
 * uses STUSB4500 to negotiate 12 or 15v from a USBC power bank
-* uses 4 DC/DC switchers to supply 12, 9, 5 and 3v outputs for my various synths
+* uses 4 [DC/DC switchers](https://www.ti.com/product/TPS56339) to supply 12, 9, 5 and 3v outputs for my various synths
 
 ![board](board.png)
 
