@@ -533,7 +533,7 @@ F 3 "~" H 4700 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 5100 5150 5100
+	4700 5100 4950 5100
 $Comp
 L Connector:Conn_01x03_Male J1
 U 1 1 5F518233
@@ -3628,10 +3628,24 @@ Text Notes 9100 1750 0    59   ~ 0
 All power good LEDs are 2v drop and run at 15mA
 Text Notes 6700 1850 0    59   ~ 0
 PSU decoupling
-Text Notes 4850 4700 0    59   ~ 0
+Text Notes 5400 4600 0    59   ~ 0
 VBUS switch
 Text Notes 6250 6700 0    59   ~ 0
 I2C programming connector
 Text Notes 9050 8650 0    118  ~ 24
 Mounting holes
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5F4EDE46
+P 4950 5100
+F 0 "TP9" H 4900 5350 50  0000 L CNN
+F 1 "TestPoint" H 4900 5450 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5150 5100 50  0001 C CNN
+F 3 "~" H 5150 5100 50  0001 C CNN
+	1    4950 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 5100
+Wire Wire Line
+	4950 5100 5150 5100
 $EndSCHEMATC
