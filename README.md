@@ -32,6 +32,14 @@
 
 * mount holes fit 20mm grid - done
 
+# psu design
+
+## test
+
+FFT of PO-12 with DC/DC 3.3v supply 
+
+![fft audio noise](docs/dcdc-po-out.png)
+
 # order
 
 * psu power plugs (volca)
