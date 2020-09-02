@@ -1,0 +1,2 @@
+10uF 1206 25v: 2320887 
+22uF 1206 16v: 2494501  (1210 would save 0.10 euro per cap)
