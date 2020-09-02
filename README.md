@@ -11,6 +11,8 @@
 
 [gerbers](synth-psu-2020-09-01-fab.zip)
 
+[bom](synth-psu-bom.csv)
+
 # functional todo
 
 * looks like aukey charger only goes up to 12v, so add a jumper to short out one of the DC switchers - done
