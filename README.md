@@ -46,6 +46,17 @@ FFT of PO-12 with DC/DC 3.3v supply
 
 ![fft audio noise](docs/dcdc-po-out.png)
 
+# programming
+
+The NVM of the STUSB4500 needs to be programmed to sink 15v (for 12v DC/DC converter).
+See the [firmware](firmware/src/program.ino). I used platformio with an Arduino Uno.
+
+To build and upload, run:
+
+    pio run --target upload
+
+Connect the I2C pins and ground to header J1 on the pcb, then open the serial port to see the results.
+
 # order
 
 * psu power plugs (volca)
@@ -59,3 +70,4 @@ FFT of PO-12 with DC/DC 3.3v supply
 * STUSB4500 datasheet https://www.st.com/en/interfaces-and-transceivers/stusb4500.html
 * sparkfun USB PD product https://www.sparkfun.com/products/15801
 * tindie USB PD product: https://github.com/oxplot/fabpide2
+* sparkfun how to use their PD board: https://learn.sparkfun.com/tutorials/power-delivery-board---usb-c-qwiic-hookup-guide?_ga=2.100271642.500100063.1599656815-1406600584.1576753580
