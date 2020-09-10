@@ -20,8 +20,7 @@
 
 # schematic todo
 
-* add part numbers
-
+* add part numbers - done
 * enable switchers only if PD is good? - no, as PD is open drain and would need an inverter, plus DCDC float to enable
 * check max input dc/dc - 5v! need to find another - how about https://www.ti.com/product/TPS56339#product-details##pps - done
 * calculate all R1 & R2 for dc/dc - done, used TI webench
@@ -33,8 +32,7 @@
 
 # pcb todo
 
-* check gerbers against other designs for pinout
-
+* check gerbers against other designs for pinout - done
 * check space for molex header - done
 * mount holes fit 20mm grid - done
 
@@ -45,6 +43,14 @@
 FFT of PO-12 with DC/DC 3.3v supply 
 
 ![fft audio noise](docs/dcdc-po-out.png)
+
+# bring up
+
+* check for shorts between vbus (testpoint) and gnd (corner holes)
+* plug in usbC PSU, if the STUSB4500 is working then it will negotiate 5v and turn on the FET
+* check the output rail (testpoint) is 5v
+* if you have DC/DC switchers with output < 5v they should turn on and LEDs should light
+* connect up your I2C controller and follow programming notes below
 
 # programming
 
@@ -64,12 +70,9 @@ To build and upload, run:
 
 Then open the serial port to see the results.
 
-# order
+# errata
 
-* psu power plugs (volca)
-* molex 2 pin header and housing, check crimp supply
-* how to connect PO - solder on a header directly
-* standoffs
+* hole size is 5.3mm, should be 6 for M5.
 
 # notes
 
