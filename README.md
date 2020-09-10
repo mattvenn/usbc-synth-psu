@@ -48,14 +48,21 @@ FFT of PO-12 with DC/DC 3.3v supply
 
 # programming
 
-The NVM of the STUSB4500 needs to be programmed to sink 15v (for 12v DC/DC converter).
-See the [firmware](firmware/src/program.ino). I used platformio with an Arduino Uno.
+The NVM of the STUSB4500 needs to be programmed to sink more than the highest output you want. 
+For example 15v (for 12v DC/DC converter).
+
+The Aukey USBC powerbank I bought can only supply up to 12v, so I set the number of PDOs to be 2, and 
+ask for 12v. Then I bridge JP1 and don't place any of the DC/DC for the 12v supply.
+
+Here is the [Sparkfun demo firmware I used](firmware/src/program.ino). To do the programming I used platformio with an Arduino Uno.
+
+Connect the I2C pins and ground to header J1 on the pcb. *SDA and SCL will both need pullups.*
 
 To build and upload, run:
 
     pio run --target upload
 
-Connect the I2C pins and ground to header J1 on the pcb, then open the serial port to see the results.
+Then open the serial port to see the results.
 
 # order
 
