@@ -40,9 +40,21 @@
 
 ## test
 
-FFT of PO-12 with DC/DC 3.3v supply 
+To see if powering the audio gear with dc/dc will be a problem, I tried powering a PO-12 with a different dc/dc switcher at 3.3v
 
 ![fft audio noise](docs/dcdc-po-out.png)
+
+## 9v switcher
+
+Results of 9v switcher supplied with 12v from USBC powerbank.
+
+![9v dcdc 50mA](docs/9v-dcdc-50mA.PNG)
+
+![9v dcdc 100mA](docs/9v-dcdc-100mA.PNG)
+
+![9v dcdc 500mA](docs/9v-dcdc-500mA.PNG)
+
+Main spikes look way above audio frequency so hopefully switching noise won't be audible.
 
 # bring up
 
