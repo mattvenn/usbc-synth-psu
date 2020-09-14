@@ -48,10 +48,13 @@ To see if powering the audio gear with dc/dc will be a problem, I tried powering
 
 Results of 9v switcher supplied with 12v from USBC powerbank.
 
+## 50mA load
 ![9v dcdc 50mA](docs/9v-dcdc-50mA.PNG)
 
+## 100mA load
 ![9v dcdc 100mA](docs/9v-dcdc-100mA.PNG)
 
+## 500mA load
 ![9v dcdc 500mA](docs/9v-dcdc-500mA.PNG)
 
 Main spikes look way above audio frequency so hopefully switching noise won't be audible.
