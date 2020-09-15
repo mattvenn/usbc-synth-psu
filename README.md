@@ -63,6 +63,10 @@ Results of 9v switcher supplied with 12v from USBC powerbank at 4 different load
 Main spikes look way above audio frequency so hopefully switching noise won't be audible.
 For loads <500mA (most likely for my case) AC pk-pk is between 60 and 100mV.
 
+## Noise issues
+
+I experienced some noise issues with the PSU and [documented the investigation here](docs/noise_issue.md)
+
 # bring up
 
 * check for shorts between vbus (testpoint) and gnd (corner holes)
@@ -91,7 +95,7 @@ Then open the serial port to see the results.
 
 # errata
 
-* hole size is 5.3mm, should be 6 for M5.
+* hole size is 5.3mm, should be 6 for M5 - fixed in PCB, not in gerbers
 
 # notes
 
