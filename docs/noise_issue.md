@@ -16,7 +16,7 @@ I made a test board:
 
 ![common mode choke](common_mode_choke.jpg)
 
-And tested it with a 10k -> 10M sweep. 
+And tested it with a 10k -> 10M sweep. Green is input and yellow is output. The filter removes all the signal above about 100khz.
 
 ![choke test](choke_test.PNG)
 
