@@ -68,8 +68,8 @@ void setup()
   */
   usb.setVoltage(2,12.0);
   usb.setCurrent(2,1.5);
-  usb.setLowerVoltageLimit(2,5);
-  usb.setUpperVoltageLimit(2,5);
+  usb.setLowerVoltageLimit(2,16);	// as low as 10v
+  usb.setUpperVoltageLimit(2,5); 	// as high as 12.6v
 
   /* PDO3
    - Voltage 5-20V
