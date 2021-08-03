@@ -2963,7 +2963,7 @@ F 7 "STL6P3LLH6" H 5700 5200 50  0001 C CNN "manf#"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Regulator_Switching:TPS562200 U2
+L synth-psu-rescue:TPS562200-Regulator_Switching U2
 U 1 1 5F4F57FD
 P 10700 3300
 F 0 "U2" H 10700 3667 50  0000 C CNN
@@ -2976,7 +2976,7 @@ F 5 "Texas Instruments" H 10700 3300 50  0001 C CNN "manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:TPS562200 U3
+L synth-psu-rescue:TPS562200-Regulator_Switching U3
 U 1 1 5F53C5E8
 P 10700 4600
 F 0 "U3" H 10700 4967 50  0000 C CNN
@@ -2989,7 +2989,7 @@ F 5 "Texas Instruments" H 10700 4600 50  0001 C CNN "manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:TPS562200 U4
+L synth-psu-rescue:TPS562200-Regulator_Switching U4
 U 1 1 5F53CEF7
 P 10700 5950
 F 0 "U4" H 10700 6317 50  0000 C CNN
@@ -3002,7 +3002,7 @@ F 5 "Texas Instruments" H 10700 5950 50  0001 C CNN "manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:TPS562200 U5
+L synth-psu-rescue:TPS562200-Regulator_Switching U5
 U 1 1 5F53D81E
 P 10700 7250
 F 0 "U5" H 10700 7617 50  0000 C CNN
