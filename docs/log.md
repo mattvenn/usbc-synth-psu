@@ -55,6 +55,8 @@ To build and upload, run:
 
 Then open the serial port to see the results.
 
+    pio device monitor -b 115200
+
 ## 9v switcher waveform results
 
 Results of 9v switcher supplied with 12v from USBC powerbank at 4 different loads.
