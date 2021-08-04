@@ -67,9 +67,9 @@ void setup()
    - Over Voltage Lock Out (setUpperVoltageLimit) 5-20%
   */
   usb.setVoltage(2,9.0);
-  usb.setCurrent(2,2.0);
-  usb.setLowerVoltageLimit(2,10);	// as low as 8.55v
-  usb.setUpperVoltageLimit(2,10); 	// as high as 9.45v
+  usb.setCurrent(2,1.5);
+  usb.setLowerVoltageLimit(2,16);	// as low as 10v
+  usb.setUpperVoltageLimit(2,5); 	// as high as 12.6v
 
   /* PDO3
    - Voltage 5-20V
@@ -114,7 +114,7 @@ void setup()
 
   /* In case of match, selects which operating current from the sink or the
      source is to be requested in the RDO message */
-  usb.setReqSrcCurrent(false);
+//  usb.setReqSrcCurrent(false);
 
   /* Write and save settings to STUSB4500 */
   usb.write();
