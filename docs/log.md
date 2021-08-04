@@ -57,6 +57,10 @@ Then open the serial port to see the results.
 
     pio device monitor -b 115200
 
+# issues
+
+* the Aukey powerbank often gets into a mode where it doesn't do the negotiation (can check the cc lines on scope). In this case output will always be off if setPowerAbove5vOnly() is set.
+* the DJI USBC power brick doesn't work at all, and I have no idea how it could as the output is normal USB standard A type.
 ## 9v switcher waveform results
 
 Results of 9v switcher supplied with 12v from USBC powerbank at 4 different loads.
